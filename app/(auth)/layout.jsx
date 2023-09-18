@@ -5,8 +5,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Threads",
-  description: "Threads onboarding content",
+  title: "Threads application",
 };
 
 export default function AuthLayout({ children }) {
