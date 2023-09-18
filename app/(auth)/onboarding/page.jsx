@@ -1,9 +1,9 @@
-import React from "react";
+import { UserButton } from "@clerk/nextjs";
 
 export default function OnBoardingPage() {
   return (
-    <main className="text-white">
-      <h1>OnBoarding !</h1>
-    </main>
+    <div>
+      <UserButton afterSignOutUrl="/" />
+    </div>
   );
 }
